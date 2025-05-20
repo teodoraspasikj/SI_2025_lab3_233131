@@ -3,7 +3,7 @@ name: Lint, Build, Deploy HTML, and Push Docker Image
 on:
   push:
     branches:
-      - master
+      - feature
 
 permissions:
   contents: read
